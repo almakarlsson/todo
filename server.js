@@ -4,7 +4,7 @@ var items = [];
 
 var show = function(response) {
   var html = '<html><head><title>Todo Listan</title></head><body>'
-           + '<h1>Todo List</h1>'
+           + '<h1>Todo Listan</h1>'
            + '<ul>'
            + items.map(function(item){
               return '<li>' + decodeURIComponent(item) + '</li>'
@@ -20,7 +20,7 @@ var show = function(response) {
 };
 
 var server = http.createServer(function(request, response){
-  switch (request.method) {
+  switch (request.method) {  
     case 'POST':
       var item = '';
       request.setEncoding('utf8');
