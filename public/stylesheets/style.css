@@ -1,3 +1,52 @@
 body {
-  font-family: sans-serif
+	background-color: #ccc;
+	font-family: 'Duru Sans', sans-serif;
+
+}
+
+div {
+	background-color: #fff;
+	margin: auto;
+	max-width: 400px;
+	height: 450px;
+	margin-top:30px;
+}
+
+#titel {
+	background-color: #F2F2F2;
+	max-width: 500px;
+	height: 50px;
+	padding-left: 30px;
+	margin-top: 1px;
+}
+
+#skriv {
+	height: 30px;
+	padding-left: 20px;
+}
+
+#lista {
+	background-color: #ffffff;
+	margin-top: -10px;
+	font-size: 13pt;
+}
+ul
+{
+    list-style-type: none;
+}
+
+
+h2 {
+	padding-right: 30px;
+	padding-top: 10px;
+	font-size: 20pt;
+}
+
+.remove {
+	height: 13px;
+	width: 13px;
+	background-image: url(gone.jpg);
+	background-repeat: no-repeat;
+	border: none;
+	margin-left: 10px;
 }
